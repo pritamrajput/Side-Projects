@@ -3,5 +3,50 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/**** ---- Navbar ---- ****/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+    background-color: black;
+    color: #fff;
+}
+.nav__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.nav__title p a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav__title p:nth-child(2) a{
+    font-size: 0.7rem;
+}
+.nav__title:hover p a{
+    color: #ff006e;
+}
+.nav__list{
+    display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.nav__list ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.nav__list__inside{
+   list-style: none;
+}
+.nav__list__inside a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav__list__inside a:hover{
+    color: #ff006e;
 }
